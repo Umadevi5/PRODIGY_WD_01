@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FashionHub</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  nav li {
+    margin: 0 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #ff7f50;
+  }
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section:nth-child(odd) {
+    background-color: #e1bebe;
+  }
+  .section:nth-child(even) {
+    background-color: #e0c5c5;
+  }
+  .center {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+</head>
+<body>
+<nav id="main-menu">
+  <ul>
+    <li><a href="#section1">Home</a></li>
+    <li><a href="#section2">About</a></li>
+    <li><a href="#section3">Services</a></li>
+    <li><a href="#section4">Contact</a></li>
+    <li><a href="#section5">Employees</a></li>
+  </ul>
+</nav>
+<section id="section1" class="section">
+    <div class="center">
+        <h1>Welcome to FashionHub</h1>
+        <p>"Welcome to FashionHub! We're dedicated to providing the latest fashion trends and styles to our customers. Explore our collections and find your perfect look today!"</p>
+    </div>
+</section>
+<section id="section2" class="section">
+    <div class="center">
+        <h1>About Us</h1>
+        <p>"At FashionHub, we believe that fashion is more than just clothing – it's a form of self-expression. Our mission is to empower individuals to feel confident and stylish in what they wear. With a team of dedicated professionals, we strive to curate the best fashion selections for our customers."</p>
+    </div>
+</section>
+<section id="section3" class="section">
+    <div class="center">
+        <h1>Our Services</h1>
+        <p>"FashionHub offers a wide range of services to meet your fashion needs. From trendy clothing options to personalized styling advice, we're here to help you look and feel your best. Explore our website and discover the services we have to offer!"</p>
+    </div>
+</section>
+<section id="section4" class="section">
+    <div class="center">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feedback, or inquiries, please don't hesitate to reach out to us. You can contact our team via email at <span class="blue-text">info@fashionhub.com</span> or by phone at <span class="blue-text">+1 (123) 456-7890</span>. We look forward to hearing from you!</p>
+    </div>
+</section>
+<section id="section5" class="section">
+  <div class="center">
+      <h1>Our Team</h1>
+      <ul>
+        <li>John Doe - CEO</li>
+        <li>Jane Smith - Fashion Designer</li>
+        <li>Michael Johnson - Marketing Manager</li>
+        <!-- Add more employees as needed -->
+      </ul>
+  </div>
+</section>
+</body>
+</html>
